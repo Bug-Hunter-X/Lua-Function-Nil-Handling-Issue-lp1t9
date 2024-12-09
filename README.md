@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in a Lua function's handling of nil arguments. The `myfunction` is intended to add two numbers, but the current implementation returns nil when both arguments are nil.  The solution demonstrates how to handle this edge case gracefully, providing a more robust and predictable function.
